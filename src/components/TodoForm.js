@@ -10,7 +10,9 @@ function TodoForm() {
         placeholder='Add a todo'
         value={input}
         name='text'
-        className='todo-input'/>
+        className='todo-input'
+      />
+      <button className='todo-button'>Add todo</button>
     </form>
   )
 }
